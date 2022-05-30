@@ -69,4 +69,4 @@ SOFTWARE.
 
 ### Accessibility
 
-WebAIM, “Invisible Content Just for Screen Reader Users”, Last updated: Sep 25, 2020. https://webaim.org/techniques/css/invisiblecontent/ [accessed: Mar – 2022]
+WebAIM, “Invisible Content Just for Screen Reader Users”, Last updated: Sep 25, 2020. https://webaim.org/techniques/css/invisiblecontent/
