@@ -1,65 +1,72 @@
-# **Raindays Headless API**
+# Your project title
 
-# Useful routes and queries
+![Homepage Preview](/report_documentation/homepage_preview.jpg)
 
-**Key queries to get results** `?consumer_key={key}&consumer_secret={key}`
+A fictional project for online outdoor jacket sales company Rainydays.
 
-**All products** `/wp-json/wc/v3/products`
+## Description
 
-**Product by id** `/wp-json/wc/v3/products/{id}`
+The aim of the project was to create a website for an online jacket retailer using HTML5 and CSS3 initially. Later implementing JavaScript to connect the websites content to a database using WordPress REST API and WooCommerce plugin.
 
-**Get all product variations of id** `/wp-json/wc/v3/products/{id}/variations`
+Development Stages
 
-**Multiple product by id** `/wp-json/wc/v3/products?include={id},{id},{id}`
+- Design website in adobeXD.
+- User test XD prototype.
+- Create website in HTML5 and CSS3.
+- Implement more functionality using JavaScript.
+- Create a WordPress installation and use WooCommerce to host product information.
+- User test and improve the current design.
 
-**Increase number of result** `/wp-json/wc/v3/products?per_page={number}`
+## Built With
 
-**Search** `/wp-json/wc/v3/products?search={search query}`
+- ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white&logoWidth=30&style=plastic)
+- ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white&logoWidth=30&style=plastic)
+- ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=white&logoWidth=30&style=plastic)
+- ![WordPress REST API](https://img.shields.io/badge/-WordPress%20REST%20API-21759B?logo=wordpress&logoColor=white&logoWidth=30&style=plastic)
+- ![WooCommerce](https://img.shields.io/badge/-WooCommerce-96588A?logo=woocommerce&logoColor=white&logoWidth=30&style=plastic)
 
-Might be better to divide queries into individual words for better search results and use `search={word1},{word2},{word3}...`
+### Designed with
 
-Search results are based on descriptions and name, as such I used the short description to add relevant information on the product. In retrospect I should of put the custom attribute for specification in the main description and used the short description for the page details on the product.
+- ![AdobeXD](https://img.shields.io/badge/-Adobe%20XD-FF61F6?logo=adobe%20xd&logoColor=white&logoWidth=30&style=plastic)
 
-# Product Setup
+## Getting Started
 
-## **Price**
+[Live Version](https://a-j-barrett.netlify.app/)
 
-Variable products from WooCommerce when on sale don't provide the regular price, so the regular prices needs to be extracted from the price html key.
+## Contributing
 
-### **keys for an individual product**
+Here you can detail any information you want to provide regarding contributing to the project. For big projects you will usually have a separate `CONTRIBUTING.md` and link to it, but for smaller projects you can simply include instructions here. These instructions can simply detail the process you want a person to take, such as to make sure to open a pull request so code can be reviewed.
 
-**price:** gives current price `data.price`
+## Contact
 
-**on_sale:** boolean for if item is on sale. `data.on_sale`
+This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
 
-**regular_price:** blank on the base variable product page, but present when calling variant IDs. `data.regular_price`
+[My LinkedIn page](https://www.linkedin.com/in/alexander-barrett-64568a47/)
 
-**price_html:** will contain the regular price and sale price on base product, so regular price can be extracted with `match(/[\d\.]+/)` as it is the first price in the html. `data.price_html`
+## License
 
-## **Product Attributes**
+Copyright (c) 2022 Alexander Barrett
 
-I used attributes to add product details as the received data was more easily managed vs categories in the returned json. As well as making it easier to integrate into my pre-existing filter.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-### Colours - Array of colours the product is a available in.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-Used for variable product variations. `data.attributes[0].options`
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
-### Sizes - Array of sizes the product is a available in.
+## Acknowledgments
 
-Used for variable product variations. `data.attributes[1].options`
+### Accessibility
 
-### Brand - Array with 1 item that is the brand name.
-
-`data.attributes[2].options`
-
-### Sex - Array with the sex the item is intended for.
-
-`data.attributes[3].options`
-
-### Specification - Array with specification details for item.
-
-`data.attributes[4].options`
-
-### Category - Array with relevant categories for item.
-
-`data.attributes[5].options`
+WebAIM, “Invisible Content Just for Screen Reader Users”, Last updated: Sep 25, 2020. https://webaim.org/techniques/css/invisiblecontent/ [accessed: Mar – 2022]
