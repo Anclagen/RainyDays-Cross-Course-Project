@@ -1,4 +1,4 @@
-# Your project title
+# Rainydays, Cross Course Project
 
 ![Homepage Preview](/report_documentation/homepage_preview.jpg)
 
