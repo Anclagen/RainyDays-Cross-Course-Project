@@ -2,7 +2,7 @@
 
 ![Homepage Preview](/report_documentation/homepage_preview.jpg)
 
-A fictional project for online outdoor jacket sales company Rainydays on ongoing assignment spanning multiple courses hand ins for Noroff.
+A fictional project for online outdoor jacket sales company Rainydays an ongoing assignment spanning multiple courses hand ins for Noroff.
 
 ## Description
 
