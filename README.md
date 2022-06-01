@@ -2,20 +2,24 @@
 
 ![Homepage Preview](/report_documentation/homepage_preview.jpg)
 
-A fictional project for online outdoor jacket sales company Rainydays an ongoing assignment spanning multiple courses hand ins for Noroff.
+A fictional project for online outdoor jacket sales company Rainydays, an ongoing assignment spanning multiple courses hand ins for Noroff.
 
 ## Description
 
-The aim of the project was to create a website for an online jacket retailer using HTML5 and CSS3 initially. Later implementing JavaScript to connect the websites content to a database using WordPress REST API and WooCommerce plugin.
+The aim of the project was to create a responsive website for an online jacket retailer using HTML5 and CSS3 initially. Later we implimented JavaScript to grab querystrings to display the selected product on the product page, and impliment a cart system. Then we used WordPress in combination with its WooCommerce plugin as a headless CMS, pulling the products onto are site, and using querystrings to call specific products. The current version also has a working cart system, and order history using Local Storage.
 
 Development Stages
 
 - Design website in adobeXD.
-- User test XD prototype.
+- User test Adobe XD prototype.
 - Create website in HTML5 and CSS3.
-- Implement more functionality using JavaScript.
+- User test current design.
+- From feedback imporve and implement more functionality using JavaScript.
 - Create a WordPress installation and use WooCommerce to host product information.
-- User test and improve the current design.
+- Generate the sites product content using the WordPress API.
+
+
+[Live Version](https://a-j-barrett.netlify.app/)
 
 ## Built With
 
@@ -31,18 +35,22 @@ Development Stages
 
 ## Getting Started
 
-[Live Version](https://a-j-barrett.netlify.app/)
+1. Simply clone the repo:
+
+```bash
+git clone https://github.com/Anclagen/RainyDays-Cross-Course-Project.git
+```
 
 ## Contributing
 
-Here you can detail any information you want to provide regarding contributing to the project. For big projects you will usually have a separate `CONTRIBUTING.md` and link to it, but for smaller projects you can simply include instructions here. These instructions can simply detail the process you want a person to take, such as to make sure to open a pull request so code can be reviewed.
+This project requires no contrubutions.
 
 ## Contact
 
-This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
+[<img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white">](https://discordapp.com/users/178264761199362048)
 
-[My LinkedIn page](https://www.linkedin.com/in/alexander-barrett-64568a47/)
 
+[<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">](https://www.linkedin.com/in/alexander-barrett-64568a47/)
 ## License
 
 Copyright (c) 2022 Alexander Barrett
