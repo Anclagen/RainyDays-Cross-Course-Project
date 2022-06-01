@@ -6,7 +6,7 @@ A fictional project for online outdoor jacket sales company Rainydays, an ongoin
 
 ## Description
 
-The aim of the project was to create a responsive website for an online jacket retailer using HTML5 and CSS3 initially. Later we implimented JavaScript to grab querystrings to display the selected product on the product page, and impliment a cart system. Then we used WordPress in combination with its WooCommerce plugin as a headless CMS, pulling the products onto are site, and using querystrings to call specific products. The current version also has a working cart system, and order history using Local Storage.
+The aim of the project was to create a responsive website for an online jacket retailer using HTML5 and CSS3 initially. Later implimenting JavaScript to grab querystrings to display the selected product on the product page, and impliment a cart system. Then using WordPress in combination with its WooCommerce plugin as a headless CMS, pulling the products onto are site, and using querystrings to call specific products. The current version also has a working cart system, and order history using Local Storage.
 
 Development Stages
 
