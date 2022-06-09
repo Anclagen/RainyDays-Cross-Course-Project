@@ -6,17 +6,17 @@ A fictional project for online outdoor jacket sales company Rainydays, an ongoin
 
 ## Description
 
-The aim of the project was to create a responsive website for an online jacket retailer using HTML and CSS initially. Later implementing JavaScript to grab query strings to display the selected product on the product page, and implement a cart system using local storage. Then adding WordPress with it's WooCommerce plugin as a headless CMS to generate are products.
+The aim of the project was to create a responsive website for an online jacket retailer using HTML and CSS initially. Later implementing JavaScript to grab query strings to display the selected product on the product page, and implement a cart system using local storage. Then adding WordPress with it's WooCommerce plugin as a headless CMS to generate our products.
 
 Development Stages
 
-- Design website in adobeXD.
+- Design website in adobe XD.
 - User test Adobe XD prototype.
-- Create website in HTML and CSS.
+- Create site in HTML and CSS.
 - User test site.
 - From feedback improve and implement more functionality using JavaScript.
 - Create a WordPress installation and use WooCommerce to host product information.
-- Generate the sites product content using the WordPress API.
+- Generate the site's product content using the WordPress API.
 
 
 [Live Version](https://a-j-barrett.netlify.app/)
@@ -37,16 +37,17 @@ Development Stages
 
 ## Getting Started
 
-1. Download the zip of the project or clone the repo with github desktop/the terminal in vsc:
+1. Download the zip of the project or clone the repo with GitHub desktop/the terminal in vsc:
 
 ```bash
 git clone https://github.com/Anclagen/RainyDays-Cross-Course-Project.git
 ```
-2.
+
+2. Open in Visual Studio Code and use the Live Server Preview extension to view the site.
 
 ## Contributing
 
-This project requires no contrubutions. Although any suggestions and feedback is welcomed to help me improve in future projects.
+This project requires no contributions. Although any suggestions and feedback are welcomed to help me improve in future projects.
 
 ## Contact
 
