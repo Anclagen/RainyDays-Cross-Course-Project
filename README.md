@@ -2,19 +2,19 @@
 
 ![Homepage Preview](/report_documentation/homepage_preview.jpg)
 
-A fictional project for online outdoor jacket sales company Rainydays, an ongoing assignment spanning multiple courses hand ins for Noroff.
+A fictional project for online outdoor jacket sales company Rainydays, an ongoing assignment spanning multiple courses assignments.
 
 ## Description
 
-The aim of the project was to create a responsive website for an online jacket retailer using HTML5 and CSS3 initially. Later implimenting JavaScript to grab querystrings to display the selected product on the product page, and impliment a cart system. Then using WordPress in combination with its WooCommerce plugin as a headless CMS, pulling the products onto are site, and using querystrings to call specific products. The current version also has a working cart system, and order history using Local Storage.
+The aim of the project was to create a responsive website for an online jacket retailer using HTML and CSS initially. Later implementing JavaScript to grab query strings to display the selected product on the product page, and implement a cart system using local storage. Then adding WordPress with it's WooCommerce plugin as a headless CMS to generate are products.
 
 Development Stages
 
 - Design website in adobeXD.
 - User test Adobe XD prototype.
-- Create website in HTML5 and CSS3.
-- User test current design.
-- From feedback imporve and implement more functionality using JavaScript.
+- Create website in HTML and CSS.
+- User test site.
+- From feedback improve and implement more functionality using JavaScript.
 - Create a WordPress installation and use WooCommerce to host product information.
 - Generate the sites product content using the WordPress API.
 
@@ -37,15 +37,16 @@ Development Stages
 
 ## Getting Started
 
-1. Simply clone the repo:
+1. Download the zip of the project or clone the repo with github desktop/the terminal in vsc:
 
 ```bash
 git clone https://github.com/Anclagen/RainyDays-Cross-Course-Project.git
 ```
+2.
 
 ## Contributing
 
-This project requires no contrubutions.
+This project requires no contrubutions. Although any suggestions and feedback is welcomed to help me improve in future projects.
 
 ## Contact
 
@@ -76,6 +77,8 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ## Acknowledgments
+
+Stephanie Eckles, Pure CSS Custom Checkbox Style, Last updated: Oct 24, 2021. https://moderncss.dev/pure-css-custom-checkbox-style/ 
 
 ### Accessibility
 
