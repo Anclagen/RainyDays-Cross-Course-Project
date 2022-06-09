@@ -55,6 +55,9 @@ This project requires no contributions. Although any suggestions and feedback ar
 
 
 [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">](https://www.linkedin.com/in/alexander-barrett-64568a47/)
+
+
+[<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white">](mailto:alexanderbarrett189@gmail.com)
 ## License
 
 Copyright (c) 2022 Alexander Barrett
